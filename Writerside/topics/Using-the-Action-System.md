@@ -42,7 +42,12 @@ Compass. From there you can edit an existing action by left-clicking on it. To r
 add a new action, click the lilly pad. From there, select the action you would like to add. After selecting the action,
 you will be presented with a menu to customize the action. Every action, with the exclusion of `Toggle Following`, can
 be delayed. Every action customizer menu will present you with two buttons at the top center of the menu to adjust to
-delay. There are a few types of items to be expected in an action customizer menu.
+delay. From there, you can adjust the action's values to suit your need. Once you are done, click on the lilly pad to 
+confirm the action. From here, you can add more actions if you would like. After you are finished adding more actions,
+press the arrow in the bottom left to return to the main NPC menu. To apply the changes you made, click the lime dye
+in the center of the menu.
+
+There are a few types of items to be expected in an action customizer menu.
 
 > Some values are bounded and cannot exceed certain values.
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="customnpcs"
+                 name="CustomNPCs"
+                 start-page="API-Documentation.md">
+
+    <toc-element topic="API-Documentation.md"/>
+    <toc-element topic="Wiki.md">
+        <toc-element topic="Creating-Your-First-NPC.md"/>
+        <toc-element topic="configuring-customnpcs.md"/>
+        <toc-element topic="getting-started.md"/>
+    </toc-element>
+</instance-profile>

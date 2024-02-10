@@ -2,4 +2,10 @@
 <!DOCTYPE terms SYSTEM "https://resources.jetbrains.com/writerside/1.0/glossary.dtd">
 <terms>
     <term name="Interactable Hologram">A holographic text box displayed if an NPC is marked as Interactable.</term>
+    <term name="NPC Persistence">
+        Determines if the NPC should be stored on file and if the NPC should persist on server restarts.
+    </term>
+    <term name="Tunnel Vision">
+        Determines if the NPC looks at nearby players.
+    </term>
 </terms>

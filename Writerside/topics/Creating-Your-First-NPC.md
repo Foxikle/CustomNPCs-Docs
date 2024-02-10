@@ -72,5 +72,42 @@ just ran the `/npc create` command.
 
 ## Changing the NPC's Persistence
 
-To change an NPC's equipment, open the editing menu. This will be opened, initialized to an NPC with no data, if you
+What is NPC Persistence? {collapsible="true"}
+: NPC Persistence determines if the NPC should persist or stay on server restarts.
+
+
+To change an NPC's persistence, open the editing menu.
+This will be opened, initialized to an NPC with no data, if you
 just ran the `/npc create` command.
+
+By clicking the bell, you can toggle 
+<tooltip term="NPC Persistence">NPC Persistence</tooltip>.
+
+## Changing the NPC's Facing Direction
+The facing direction is the direction the NPC faces when there isn't a player within five blocks, and it doesn't have
+<tooltip term="Tunnel Vision"> Tunnel Vision</tooltip>. The possible options are the cardinal directions and the yaw
+of the player currently editing the NPC.
+
+## Changing the NPC's Tunnel Vision
+
+What is Tunnel Vision?
+: Tunnel vision determines if the NPC looks at nearby players. 
+
+This can be toggled by clicking the spyglass under the equipment menu.
+
+## Adding Actions to an NPC
+To change the NPC's Actions, first open the editing menu.
+This will be opened, initialized to an NPC with no data, if you
+just ran the `/npc create` command.
+
+From there, ensure the NPC is interactable.
+Non-interactable NPCs cannot have actions.
+This can be achieved by clicking
+on the dead bush if it is in the menu.
+You will know the NPC is interactable if you can see a Recovery Compass in the
+bottom right of the menu.
+
+You can then add actions by clicking on the Lilly pad. 
+
+For a more in-depth guide to using Actions, look [here](Using-the-Action-System.md).
+

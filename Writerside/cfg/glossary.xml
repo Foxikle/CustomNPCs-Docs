@@ -8,4 +8,7 @@
     <term name="Tunnel Vision">
         Determines if the NPC looks at nearby players.
     </term>
+    <term name="Boolean Value">
+        A true/false value
+    </term>
 </terms>

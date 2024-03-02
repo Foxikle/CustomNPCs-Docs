@@ -16,10 +16,11 @@ writing, version 1.6 provides the following 12 default actions.
 - Give Effect
 - Remove Effect
 - Send to Bungeecord/Velocity Server
-- Toggle Following 
+- ~~Toggle Following~~  (This action is currently broken, hence its 'WIP' state.)
 
 <warning>
     The `Toggle Following` action is an unstable feature, and therefore is still under heavy development.
+As of 1.6, it is currently disabled.
 </warning>
     <tip>
         The 

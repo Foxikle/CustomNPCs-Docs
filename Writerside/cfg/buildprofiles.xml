@@ -15,8 +15,10 @@
         <footer>
             <copyright>Foxikle 2024</copyright>
             <social type="youtube" href="https://youtube.com/@foxikle">Youtube</social>
+            <social type="email" href="mailto:support@foxikle.dev">Email</social>
             <link href="discord.gg/4uThsAfJ8g">Discord</link>
             <link href="https://github.com/foxikle/customnpcs">GitHub</link>
+            <link href="https://patreon.com/foxikle">Patreon</link>
         </footer>
     </build-profile>
 </buildprofiles>

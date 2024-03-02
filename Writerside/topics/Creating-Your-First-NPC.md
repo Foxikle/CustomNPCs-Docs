@@ -21,27 +21,33 @@ the `/npc create` command.
 
 To change an NPC's skin, open the editing menu. This will be opened, initialized to an NPC with no data, if you just ran
 the `/npc create` command.
+<tabs>
+  <tab id="skin_catalog" title="Skin Catalog">
+    <list type="decimal">
+      <li>Open the skin editor by clicking on the player head with a missing texture icon</li>
+      <li>Open the skin catalogue by clicking on the armor stand</li>    
+      <li>Browse and select your desired Skin!</li>
+    </list>
+  </tab>
+  <tab id="import_from_player" title="Import from Player">
+    <list type="decimal">
+      <li>Open the skin editor by clicking on the player head with a missing texture icon</li>
+      <li>Click the anvil to select importing from a player name</li>
+      <li>Type the player's name to import the skin from. <note>This imports the player's CURRENT skin, and it will not change
+        if the player changes their skin.</note></li>
+      <li>Hit &quot;enter&quot; to confirm</li>
+    </list>
+  </tab>
+  <tab id="import_from_url" title="Import from URL">
+    <list type="decimal">
+      <li>Open the skin editor by clicking on the player head with a missing texture icon</li>
+      <li>Click the Book &amp; Quil to select importing from a URL</li>
+      <li>Paste the URL into the chat</li>
+      <li>Hit &quot;enter&quot; to confirm</li>
+    </list>
+  </tab>
+</tabs>
 
-### Method 1: Skin Catalogue {collapsible="true"}
-
-- {type="decimal"} Open the skin editor by clicking on the player head with a missing texture icon
-- Open the skin catalogue by clicking on the armor stand
-- Browse and select your desired Skin!
-
-### Method 2: Import From Player {collapsible="true"}
-
-- {type="decimal"} Open the skin editor by clicking on the player head with a missing texture icon
-- Click the anvil to select importing from a player name
-- Type the player's name to import the skin from. <note>This imports the player's CURRENT skin, and it will not change
-  if the player changes their skin.</note>
-- Hit "enter" to confirm
-
-### Method 3: Import From URL {collapsible="true"}
-
-- {type="decimal"} Open the skin editor by clicking on the player head with a missing texture icon
-- Click the Book & Quil to select importing from a URL
-- Paste the URL into the chat
-- Hit "enter" to confirm
 
 ## Changing the NPC's Equipment
 
@@ -69,33 +75,40 @@ just ran the `/npc create` command.
     </list>
 </note>
 
-
 ## Changing the NPC's Persistence
 
 What is NPC Persistence? {collapsible="true"}
 : NPC Persistence determines if the NPC should persist or stay on server restarts.
 
-
 To change an NPC's persistence, open the editing menu.
 This will be opened, initialized to an NPC with no data, if you
 just ran the `/npc create` command.
 
-By clicking the bell, you can toggle 
+By clicking the bell, you can toggle
 <tooltip term="NPC Persistence">NPC Persistence</tooltip>.
 
 ## Changing the NPC's Facing Direction
+
 The facing direction is the direction the NPC faces when there isn't a player within five blocks, and it doesn't have
 <tooltip term="Tunnel Vision"> Tunnel Vision</tooltip>. The possible options are the cardinal directions and the yaw
-of the player currently editing the NPC.
+of the player currently editing the NPC. For your convenience, you can click the ender eye to easily change your
+current facing direction. This applies to the NPC's pitch, too.
 
 ## Changing the NPC's Tunnel Vision
 
 What is Tunnel Vision?
-: Tunnel vision determines if the NPC looks at nearby players. 
+: Tunnel vision determines if the NPC looks at nearby players.
 
 This can be toggled by clicking the spyglass under the equipment menu.
 
+## Editing the NPC's Extra Settings
+In the top right of the NPC menu, there is a button to take you to the extra settings menu.
+In this menu, you can customize if the NPC's Interactable Hologram is visible, and what the contents of the hologram
+are. If nothing is specified here, it defaults to the config value `ClickText`.
+
+
 ## Adding Actions to an NPC
+
 To change the NPC's Actions, first open the editing menu.
 This will be opened, initialized to an NPC with no data, if you
 just ran the `/npc create` command.
@@ -107,7 +120,7 @@ on the dead bush if it is in the menu.
 You will know the NPC is interactable if you can see a Recovery Compass in the
 bottom right of the menu.
 
-You can then add actions by clicking on the Lilly pad. 
+You can then add actions by clicking on the Lilly pad.
 
 For a more in-depth guide to using Actions, look [here](Using-the-Action-System.md).
 

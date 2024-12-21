@@ -1,3 +1,0 @@
-# About CustomNPCs
-
-Start typing here...

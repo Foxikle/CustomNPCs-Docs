@@ -14,8 +14,4 @@
         <description>Created after removal of "Creating an NPC" from Help Instance</description>
         <accepts>Creating-an-NPC.html</accepts>
     </rule>
-    <rule id="98a84b6">
-        <description>Created after removal of "v2" from CustomNPCs</description>
-        <accepts>v2.html</accepts>
-    </rule>
 </rules>

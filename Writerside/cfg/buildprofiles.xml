@@ -2,7 +2,7 @@
 <buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
     <variables>
-        <primary-color>emerald</primary-color>
+        <primary-color>aqua</primary-color>
         <product-web-url>https://foxikle.dev</product-web-url>
         <download-title>Download CustomNPCs</download-title>
         <download-page>https://modrinth.com/plugin/customnpcs</download-page>
@@ -15,7 +15,8 @@
         <footer>
             <copyright>Foxikle 2024</copyright>
             <social type="youtube" href="https://youtube.com/@foxikle">Youtube</social>
-            <social type="email" href="mailto:support@foxikle.dev">Email</social>
+            <social type="email" href="support@foxikle.dev">Email</social>
+            <social type="blog" href="https://foxikle.dev">Website</social>
             <link href="discord.gg/4uThsAfJ8g">Discord</link>
             <link href="https://github.com/foxikle/customnpcs">GitHub</link>
             <link href="https://patreon.com/foxikle">Patreon</link>

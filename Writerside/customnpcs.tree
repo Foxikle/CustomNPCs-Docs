@@ -2,21 +2,24 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="customnpcs"
-                 name="CustomNPCs"
-                 start-page="Wiki.md">
-
-    <toc-element topic="Wiki.md">
-        <toc-element topic="getting-started.md"/>
-        <toc-element topic="configuring-customnpcs.md"/>
-        <toc-element topic="Creating-Your-First-NPC.md"/>
-        <toc-element topic="Commands.md"/>
-        <toc-element topic="Using-the-Action-System.md">
-            <toc-element topic="Using-Conditions-Within-Actions.md"/>
-        </toc-element>
+<instance-profile id="customnpcs" name="CustomNPCS" start-page="Wiki.md">
+    <toc-element topic="Wiki.md"/>
+    <toc-element topic="getting-started.md"/>
+    <toc-element topic="configuring-customnpcs.md"/>
+    <toc-element topic="Creating-Your-First-NPC.md"/>
+    <toc-element topic="Commands.md"/>
+    <toc-element topic="Using-the-Action-System.md">
+        <toc-element topic="Using-Conditions-Within-Actions.md"/>
+    </toc-element>
+    <toc-element topic="API-Documentation.md">
+        <toc-element topic="Getting-Started-With-The-API.md"/>
+        <toc-element topic="Creating-an-NPC-with-the-API.md"/>
+        <toc-element topic="Writing-Custom-Actions.md"/>
+        <toc-element topic="Using-Events.md"/>
+        <toc-element topic="Gimmicks.md"/>
+        <toc-element topic="API-Roadmap.md"/>
     </toc-element>
     <toc-element topic="Support.md"/>
     <toc-element topic="Contributing.md"/>
     <toc-element topic="Acknowledgments.md"/>
-    <toc-element topic="API-Documentation.md"/>
 </instance-profile>
